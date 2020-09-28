@@ -15,6 +15,10 @@ app.get('/curse/:curseId', (req, res) => {
   res.render('curse')
 })
 
+app.get('*', (req, res) => {
+  res.render('404')
+})
+
 app.listen(3000, () => {
   console.log('server is started on port 3000')
 })

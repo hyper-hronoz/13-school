@@ -70,7 +70,7 @@ header > .container {
   cursor: pointer;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: #101633;
 }
 
@@ -145,10 +145,7 @@ h2{
   align-items: center;
 }
 
-.about__img {
-  max-width: 100%;
-}
-
+.about__img { max-width: 100%; } 
 .about__text {
   margin-left: 8rem;;
 }
@@ -169,7 +166,7 @@ h2{
 }
 
 .list-item__discription {
-  color: #94A2B3;
+  color: #5D6671;
   line-height: 3rem;
   font-size: 1.8rem;
 }
@@ -183,4 +180,27 @@ h2{
 }
 
 .curses > .container {
+}
+
+.error-404 {
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error-404__text {
+  font-size: 6.2rem;
+  line-height: 7.5rem;
+  position: relative;
+  z-index: 999999999999999;
+  text-shadow: 0px 0px 5px rgba(255,255,255);
+}
+
+.error-404__link {
+  text-decoration: none;
+  margin-top: 3rem;;
 }
