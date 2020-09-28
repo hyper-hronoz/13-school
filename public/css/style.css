@@ -19,12 +19,23 @@ ul{
 }
 
 .container {
-  width: 108em;
+  max-width: 108em;
   margin: 0 auto; 
 }
 
 header{
   background: #55C8E1;
+}
+
+h4{
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+
+h3 {
+  text-align: center;
+  font-size: 5.5rem;
+  line-height: 7rem;
 }
 
 header > .container {
@@ -107,4 +118,69 @@ h2{
 
 .about > .container {
   display: flex;
+}
+
+.button-large {
+  margin: 3rem  0 0 0;
+  font-size: 2.4rem;
+  white-space: nowrap;
+}
+
+.curse {
+  display: flex;
+}
+
+.curse__smth {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  margin-top: 15rem;
+}
+
+.about > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__img {
+  max-width: 100%;
+}
+
+.about__text {
+  margin-left: 8rem;;
+}
+
+.curses-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3.8rem;
+}
+
+.curses-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 35rem;
+  margin-bottom: 6.1rem;;
+}
+
+.list-item__discription {
+  color: #94A2B3;
+  line-height: 3rem;
+  font-size: 1.8rem;
+}
+
+.curses__header {
+  margin-top: 15rem
+}
+
+.list-item__img {
+  max-width: 100%;
+}
+
+.curses > .container {
 }
