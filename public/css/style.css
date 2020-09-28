@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Nunito;
+}
+
+button{
+  outline: none;
+  border: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.container {
+  width: 108em;
+  margin: 0 auto; 
+}
+
+header{
+  background: #55C8E1;
+}
+
+header > .container {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  justify-content: space-between;
+}
+
+.logo__text {
+  font-size: 2.0rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.dropdown-menu{
+  display: none;
+}
+
+.nav__ul{
+  display: flex;
+}
+
+.list-item{
+  margin: 0 0 0 6.4rem;
+}
+
+.list-item__link{
+  font-size: 2.1rem;
+  letter-spacing: 8%;
+  color: #fff;
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  color: #101633;
+}
+
+h1{
+  font-size: 6.2rem;
+  line-height: 7.5rem;
+  position: relative;
+  z-index: 999999999999999;
+  text-shadow: 0px 0px 5px rgba(255,255,255);
+}
+
+h2{
+  font-size: 55px;
+  font-weight: 700;
+
+}
+
+.discription{
+  position: relative;
+  z-index: 999999999999;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  max-width: 47.7rem;
+  margin-top: 2.8rem;
+}
+
+.main__button{
+  margin-top: 2.8rem;
+}
+
+.button{
+  font-size: 21px;
+  background: #55C8E1;
+  letter-spacing: 0.3rem;
+  color: #fff;
+  padding: 1.8rem 5rem;
+  text-transform: uppercase;
+}
+
+.main{
+  padding: 27rem 0;
+  background: url('/static/imgs/foto.png') no-repeat right center fixed;
+}
+
+.about > .container {
+  display: flex;
+}
