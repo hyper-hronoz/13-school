@@ -205,3 +205,19 @@ h2{
 .curses__link {
   text-decoration: none;
 }
+
+.curses {
+  margin-top: 12rem;
+}
+
+.curse-about {
+  margin-left: 9rem;;
+}
+
+.curse-about > .curse-about__header{
+  text-align: left !important;
+}
+
+.curse-about > .discription{
+  max-width: 100%;
+}
