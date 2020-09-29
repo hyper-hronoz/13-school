@@ -220,7 +220,7 @@ h2{
 
 .about__img { max-width: 100%; } 
 .about__text {
-  margin-left: 8rem;;
+  margin-left: 8rem;
 }
 
 .curses-list {
@@ -235,7 +235,7 @@ h2{
   flex-direction: column;
   align-items: start;
   max-width: 35rem;
-  margin-bottom: 6.1rem;;
+  margin-bottom: 6.1rem;
 }
 
 .list-item__discription {
@@ -284,11 +284,11 @@ h2{
 
 .curses {
   margin-top: 12rem;
-  margin-bottom: 12rem;;
+  margin-bottom: 12rem;
 }
 
 .curse-about {
-  margin-left: 9rem;;
+  margin-left: 9rem;
 }
 
 .curse-about > .curse-about__header{
@@ -314,4 +314,34 @@ h2{
 .button:hover::after {
   width: 100%;
   transition: ease-out .2s;
+}
+
+.teachers {
+  margin-top: 9rem;
+}
+
+.teachers-persons__person {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+.person__img {
+  width: 24rem;
+  height: 24rem;
+}
+
+.teachers-persons__person {
+  display: flex;
+}
+
+.person-discription__header {
+  font-size: 3.4rem;
+}
+
+.person-discription {
+  margin-left: 5.6rem;
+}
+
+.teachers .discription {
+  margin-top: 1.7rem;
+  font-weight: bold;
 }

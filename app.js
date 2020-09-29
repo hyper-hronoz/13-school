@@ -1,5 +1,6 @@
 const express = require('express')
 const path = require('path')
+const fs = require('fs')
 
 const app = express()
 
@@ -12,7 +13,15 @@ app.get('/', (req, res) => {
 })
 
 app.get('/curse/:curseId', (req, res) => {
-  res.render(req.params.curseId)
+  if (fs.existsSync(`./views/${req.params.curseId}.pug`)) {
+    res.render(req.params.curseId)
+  } else {
+    res.render('404')
+  }
+})
+
+app.get('/teachers', (req, res) => {
+  res.render('teachers')
 })
 
 app.get('*', (req, res) => {
