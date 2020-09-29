@@ -138,10 +138,7 @@ h2{
 .about {
   margin-top: 15rem;
 }
-
-.about > .container {
-  display: flex;
-  justify-content: space-between;
+.about > .container { display: flex; justify-content: space-between;
   align-items: center;
 }
 
@@ -203,4 +200,8 @@ h2{
 .error-404__link {
   text-decoration: none;
   margin-top: 3rem;;
+}
+
+.curses__link {
+  text-decoration: none;
 }
