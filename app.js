@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/curse/:curseId', (req, res) => {
-  console.log(req.params.curseId)
   res.render(req.params.curseId)
 })
 

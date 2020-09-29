@@ -56,7 +56,18 @@ header > .container {
 }
 
 .dropdown {
+  display: flex;
+  align-items: center;
   position: relative;
+}
+
+.dropdown-icon {
+  position: relative;
+  top: .1rem;
+  right: -.4rem;
+  border-left: .5rem solid transparent;
+  border-right: .5rem  solid transparent;
+  border-top: .9rem  solid #fff;
 }
 
 .dropdown-menu{
@@ -65,7 +76,7 @@ header > .container {
   box-shadow: inset 0px 0px 0px 2px #F5DA4B;
   max-height: 0;
   overflow:hidden;
-  top: 7rem;
+  top: 5.2rem;
   text-align: right;
   right: 0;
 }
