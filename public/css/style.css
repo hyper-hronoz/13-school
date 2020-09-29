@@ -51,8 +51,54 @@ header > .container {
   color: #fff;
 }
 
+.dropdown {
+  position: relative;
+}
+
 .dropdown-menu{
-  display: none;
+  position: absolute;
+  background: #55C8E1;
+  box-shadow: inset 0px 0px 0px 2px #F5DA4B;
+  max-height: 0;
+  overflow:hidden;
+  top: 7rem;
+  text-align: right;
+  right: 0;
+}
+
+.dropdown-menu::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: #000;
+  opacity: 0;
+  position: absolute;
+  top: -7rem;
+  right: 0;
+}
+
+.list-item__dropdown {
+  position: relative;
+  margin-top: 2.2rem;
+}
+
+.list-item__dropdown:first-child {
+  margin-top: 0rem;
+}
+
+.list-item__dropdown a{
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 21px;
+}
+
+.dropdown:hover .dropdown-menu{
+  max-height: 1000px;
+  overflow: visible;
+  padding: 2.7rem 2.3rem;
+  transition: max-height ease-out 2s;
 }
 
 .nav__ul{
