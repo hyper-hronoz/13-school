@@ -9,6 +9,17 @@ html {
   font-family: Nunito;
 }
 
+canvas {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -9999;
+}
+
 button{
   outline: none;
   border: none;
