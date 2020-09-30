@@ -16,7 +16,7 @@ function Circle(y, x, dx, dy, radius) {
 
   this.draw = function () {
     ctx.beginPath()
-    ctx.fillStyle = "rgba(0, 175, 245, 0.322)"
+    ctx.fillStyle = "rgba(0, 175, 245, 0.122)"
     ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true)
     ctx.strokeStyle = "blue"
     ctx.fill()

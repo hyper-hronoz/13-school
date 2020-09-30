@@ -30,7 +30,8 @@ ul{
 }
 
 .container {
-  max-width: 108em;
+  max-width: 110rem;
+  padding: 0 1rem;
   margin: 0 auto; 
 }
 
@@ -199,7 +200,7 @@ h2{
 }
 
 .main{
-  padding: 27rem 0;
+  padding: 270px 0;
   background: url('/static/imgs/foto.png') no-repeat right center fixed;
 }
 
@@ -237,16 +238,18 @@ h2{
 .curses-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 3.8rem;
 }
 
 .curses-list__item {
+  padding: 1rem;
+  box-sizing: content-box;
   display: flex;
   flex-direction: column;
   align-items: start;
-  max-width: 35rem;
-  margin-bottom: 6.1rem;
+  max-width: 34rem;
+  margin-bottom: 5.1rem;
 }
 
 .list-item__discription {
@@ -348,6 +351,10 @@ h2{
   font-size: 3.4rem;
 }
 
+.header__burger {
+  display: none;
+}
+
 .person-discription {
   margin-left: 5.6rem;
 }
@@ -355,4 +362,41 @@ h2{
 .teachers .discription {
   margin-top: 1.7rem;
   font-weight: bold;
+}
+
+.header__burger {
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+}
+
+.about__img {
+  width: 50%;
+}
+
+.about__discription {
+  flex: 19rem;
+}
+
+@media screen and (max-width: 1130px) {
+  html {
+    font-size: 8px
+  }
+  .main {
+    background: url('/static/imgs/foto.png') no-repeat right top fixed;
+  }  
+}
+
+@media screen and (max-width: 767.999999px) {
+  html {
+    font-size: 7px;;
+  }
+  nav {
+    display: none !important;
+    opacity: 0;
+  }
+  .header__burger {
+    display: block;
+    cursor: pointer;
+  }
 }
