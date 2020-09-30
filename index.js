@@ -2,6 +2,8 @@ const express = require('express')
 const path = require('path')
 const fs = require('fs')
 
+const PORT = process.env.PORT || 80
+
 const app = express()
 
 app.use('/static', express.static(path.join(__dirname, 'public')))
@@ -28,6 +30,6 @@ app.get('*', (req, res) => {
   res.render('404')
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log('server is started on port 3000')
 })
