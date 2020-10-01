@@ -189,6 +189,10 @@ h2{
   margin-top: 2.8rem;
 }
 
+.main__discription {
+  text-shadow: 0px 0px 5px rgba(255,255,255);
+}
+
 .button{
   position: relative;
   font-size: 21px;
@@ -378,7 +382,7 @@ h2{
   flex: 19rem;
 }
 
-@media screen and (max-width: 1130px) {
+/*@media screen and (max-width: 1130px) {
   html {
     font-size: 8px
   }
@@ -399,4 +403,4 @@ h2{
     display: block;
     cursor: pointer;
   }
-}
+}*/
