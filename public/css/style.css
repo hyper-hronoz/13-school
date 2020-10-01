@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,30 +20,34 @@ canvas {
   z-index: -9999;
 }
 
-button{
+button {
   outline: none;
   border: none;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
 .container {
   max-width: 110rem;
   padding: 0 1rem;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 a {
   text-decoration: none;
 }
 
-header{
-  background: #55C8E1;
+.curses > .container {
+  max-width: 114rem;
 }
 
-h4{
+header {
+  background: #55c8e1;
+}
+
+h4 {
   font-size: 3.4rem;
   font-weight: 700;
 }
@@ -62,7 +66,7 @@ header > .container {
 }
 
 .logo__text a {
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #fff;
 }
@@ -75,19 +79,19 @@ header > .container {
 
 .dropdown-icon {
   position: relative;
-  top: .1rem;
-  right: -.4rem;
-  border-left: .5rem solid transparent;
-  border-right: .5rem  solid transparent;
-  border-top: .9rem  solid #fff;
+  top: 0.1rem;
+  right: -0.4rem;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-top: 0.9rem solid #fff;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   position: absolute;
-  background: #55C8E1;
-  box-shadow: inset 0px 0px 0px 2px #F5DA4B;
+  background: #55c8e1;
+  box-shadow: inset 0px 0px 0px 2px #f5da4b;
   max-height: 0;
-  overflow:hidden;
+  overflow: hidden;
   top: 5.2rem;
   text-align: right;
   right: 0;
@@ -120,62 +124,64 @@ header > .container {
   background: #fff;
 }
 .list-item__dropdown:hover::after {
-  width: 100%; 
-  transition: ease-out .2s;
+  width: 100%;
+  transition: ease-out 0.2s;
 }
 
 .list-item__dropdown:first-child {
   margin-top: 0rem;
 }
 
-.list-item__dropdown a{
+.list-item__dropdown a {
   text-decoration: none;
   white-space: nowrap;
   color: #fff;
   font-size: 21px;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
   max-height: 1000px;
   overflow: visible;
   padding: 2.7rem 2.3rem;
   transition: max-height ease-out 2s;
 }
 
-.nav__ul{
+.nav__ul {
   display: flex;
 }
 
-.list-item{
+.list-item {
   margin: 0 0 0 6.4rem;
 }
 
-.list-item__link{
+.list-item__link {
   font-size: 2.1rem;
   letter-spacing: 8%;
   color: #fff;
   cursor: pointer;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: #101633;
 }
 
-h1{
+h1 {
   font-size: 6.2rem;
   line-height: 7.5rem;
   position: relative;
   z-index: 999999999999999;
-  text-shadow: 0px 0px 5px rgba(255,255,255);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
 }
 
-h2{
+h2 {
   font-size: 55px;
   font-weight: 700;
-
 }
 
-.discription{
+.discription {
   position: relative;
   z-index: 999999999999;
   font-size: 1.8rem;
@@ -185,27 +191,27 @@ h2{
   margin-top: 2.8rem;
 }
 
-.main__button{
+.main__button {
   margin-top: 2.8rem;
 }
 
 .main__discription {
-  text-shadow: 0px 0px 5px rgba(255,255,255);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
 }
 
-.button{
+.button {
   position: relative;
   font-size: 21px;
-  background: #55C8E1;
+  background: #55c8e1;
   letter-spacing: 0.3rem;
   color: #fff;
   padding: 1.8rem 5rem;
   text-transform: uppercase;
 }
 
-.main{
+.main {
   padding: 270px 0;
-  background: url('/static/imgs/foto.png') no-repeat right center fixed;
+  background: url("/static/imgs/foto.png") no-repeat right center fixed;
 }
 
 .about > .container {
@@ -213,7 +219,7 @@ h2{
 }
 
 .button-large {
-  margin: 3rem  0 0 0;
+  margin: 3rem 0 0 0;
   font-size: 2.4rem;
   white-space: nowrap;
 }
@@ -230,11 +236,15 @@ h2{
 .about {
   margin-top: 15rem;
 }
-.about > .container { display: flex; justify-content: space-between;
+.about > .container {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.about__img { max-width: 100%; } 
+.about__img {
+  max-width: 100%;
+}
 .about__text {
   margin-left: 8rem;
 }
@@ -247,7 +257,7 @@ h2{
 }
 
 .curses-list__item {
-  padding: 1rem;
+  padding: 1.5rem;
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
@@ -257,13 +267,13 @@ h2{
 }
 
 .list-item__discription {
-  color: #5D6671;
+  color: #5d6671;
   line-height: 3rem;
   font-size: 1.8rem;
 }
 
 .curses__header {
-  margin-top: 15rem
+  margin-top: 15rem;
 }
 
 .list-item__img {
@@ -288,7 +298,7 @@ h2{
   line-height: 7.5rem;
   position: relative;
   z-index: 999999999999999;
-  text-shadow: 0px 0px 5px rgba(255,255,255);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255);
 }
 
 .error-404__link {
@@ -309,11 +319,11 @@ h2{
   margin-left: 9rem;
 }
 
-.curse-about > .curse-about__header{
+.curse-about > .curse-about__header {
   text-align: left !important;
 }
 
-.curse-about > .discription{
+.curse-about > .discription {
   max-width: 100%;
 }
 
@@ -331,7 +341,7 @@ h2{
 
 .button:hover::after {
   width: 100%;
-  transition: ease-out .2s;
+  transition: ease-out 0.2s;
 }
 
 .teachers {
@@ -382,15 +392,141 @@ h2{
   flex: 19rem;
 }
 
-/*@media screen and (max-width: 1130px) {
-  html {
-    font-size: 8px
+.modal {
+  position: absolute; /* фиксированное положение */
+  top: 10rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999999999999999999999999999999999999999;
+  pointer-events: none; /* элемент невидим для событий мыши */
+  margin: 0;
+  padding: 0;
+}
+/* при отображении модального окно */
+.modal:target {
+  pointer-events: auto; /* элемент видим для событий мыши */
+  overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog{
+  background: red;
+  position: relative;
+  z-index: 9999999999999999999999999999999999999999999;
+  width: auto;
+  margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+    margin: 30px auto; /* для отображения модального окна по центру */
   }
-  .main {
-    background: url('/static/imgs/foto.png') no-repeat right top fixed;
-  }  
+}
+/* свойства для блока, содержащего контент модального окна */
+.modal-content {
+  padding: 3rem 2rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border-radius: 0.3rem;
+  outline: 0;
+  background: red;
+  z-index: 9999999999999999999999999999999999999999999;
 }
 
+.modal input {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;;
+  margin: 1rem 0;
+  border: 1px solid #f5da4b;
+  outline: none;
+}
+.modal-email, .modal-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+/* свойства для заголовка модального окна */
+.modal-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+  float: right;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus,
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 15px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1130px) {
+  html {
+    font-size: 8px;
+  }
+  .main {
+    background: url("/static/imgs/foto.png") no-repeat right top fixed;
+  }
+}
+/*
 @media screen and (max-width: 767.999999px) {
   html {
     font-size: 7px;;
@@ -403,4 +539,5 @@ h2{
     display: block;
     cursor: pointer;
   }
-}*/
+}
+*/
